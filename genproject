@@ -5,5 +5,6 @@ mkdir $1 && \
     cd $1 && \
     git init && \
     curl -s https://gist.githubusercontent.com/fischersean/3c0e320e951780624c79b085714111e5/raw/dd71d2631e893e6853eb6652556953a9417d6edf/standard.gitignore > .gitignore && \
-    touch LICENSE README.md
+    touch LICENSE README.md && \
+    curl https://sean-fischer.mit-license.org/license.txt > LICENSE
 
